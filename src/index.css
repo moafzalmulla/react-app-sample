@@ -1,5 +1,114 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding:30px;
+  font-family: 'Cutive Mono', monospace,sans-serif;
+  background:#fff;
+  font-size:30px;
+  text-transform: uppercase;
+}
+
+.well{
+  color:white;
+  background:#333;
+  height: 50px;
+}
+.level-10
+{
+  background-color: white;
+}
+
+.level-9,
+.level-8,
+.level-7,
+.level-6
+.level-5,
+.level-4,
+.level-3,
+.level-2
+{
+  background-color: orange;
+}
+
+.level-1,
+.level-0{
+  background-color: red;
+}
+
+.line-row{
+  width:100%;
+  float:left;
+  position: relative;
+  background: white;
+  padding:30px;
+}
+.line-box{
+  width: 50px;
+  min-height:50px;
+  position: absolute;
+  left:20px;
+  top:20px;
+}
+.line-sev{
+width:40px;
+height:40px;
+border-radius: 20px;
+}
+.line-name,
+.line-desc{
+  float:left;
+  width:100%;
+  padding-left:60px
+}
+
+.the-desc{
+  text-transform:lowercase;
+  font-weight:normal;
+  font-size:20px;
+}
+/* Lines */
+
+
+.bakerloo{
+  background-color:#996633;
+  color:white;
+}
+.central{
+  background-color:	#CC3333;
+  color:white;
+}
+.circle{
+  background-color:	#FFCC00;
+  color:#333;
+}
+.district{
+  background-color:	#006633;
+  color:white;
+}
+.hammersmith-city{
+  background-color:	#CC9999;
+  color:#333;
+}
+.jubilee{
+  background-color:	#868F98;
+  color:#333;
+}
+.metropolitan{
+  background-color:	#660066;
+  color:white;
+}
+.northern{
+  background-color:	#000000;
+  color:white;
+}
+.piccadilly{
+  background-color:	#000099;
+  color:white;
+}
+.victoria{
+  background-color:	#0099CC;
+  color:white;
+}
+.waterloo-city{
+  background-color:	#66CCCC;
+  color:white;
 }
